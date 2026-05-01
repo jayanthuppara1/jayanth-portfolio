@@ -3,9 +3,6 @@
   "devCommand": "npm run dev",
   "installCommand": "npm install",
   "framework": "nextjs",
-  "env": {
-    "NEXT_PUBLIC_SITE_URL": "@next-public-site-url"
-  },
   "functions": {
     "app/**/*.ts": {
       "maxDuration": 10
