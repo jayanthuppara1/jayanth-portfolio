@@ -1,12 +1,17 @@
 import Hero from '@/components/Hero';
+import RecruiterQuickView from '@/components/RecruiterQuickView';
+import About from '@/components/About';
+import Experience from '@/components/Experience';
+import Projects from '@/components/Projects';
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <div id="next-section" className="min-h-screen bg-slate-900 p-8">
-        {/* Coming soon: Projects section */}
-      </div>
+      <RecruiterQuickView />
+      <About />
+      <Experience />
+      <Projects />
     </>
   );
 }
