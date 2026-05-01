@@ -25,12 +25,12 @@ export default function Hero() {
 
         {/* Headline */}
         <p className="text-xl md:text-2xl text-blue-400 font-semibold mb-4">
-          Data Analyst | BI Engineer | Data Engineer | AI Analytics Builder
+          Data Analyst | BI Engineer | Data Engineer
         </p>
 
         {/* Tagline */}
         <p className="text-lg md:text-xl text-slate-300 mb-12 max-w-2xl mx-auto leading-relaxed">
-          I build data pipelines, dashboards, and AI-assisted analytics systems that turn raw data into business decisions.
+          4+ years building data pipelines, Power BI dashboards, and analytics systems at scale. Currently at California's Franchise Tax Board. Strong in T-SQL, AWS, Airflow, and Python.
         </p>
 
         {/* CTA Buttons */}
@@ -59,7 +59,7 @@ export default function Hero() {
             Ask Jay
           </button>
           <a
-            href="https://linkedin.com/in/jayanthuppara"
+            href="https://www.linkedin.com/in/jayanthu/"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 bg-slate-700 hover:bg-slate-600 text-white font-semibold rounded-lg transition transform hover:scale-105"
@@ -73,6 +73,12 @@ export default function Hero() {
             className="px-8 py-3 bg-slate-700 hover:bg-slate-600 text-white font-semibold rounded-lg transition transform hover:scale-105"
           >
             GitHub
+          </a>
+          <a
+            href="mailto:upparajayanth999@gmail.com"
+            className="px-8 py-3 border-2 border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-slate-950 font-semibold rounded-lg transition transform hover:scale-105"
+          >
+            Email
           </a>
         </div>
 
